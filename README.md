@@ -1,4 +1,4 @@
 # Dogernaut
 A Unity-based game inspired from Flappy Bird
 
-![DogernautVideo](DogernautVideo.gif)
+![](https://github.com/Garenium/Dogernaut/blob/main/DogernautVideo.gif)
