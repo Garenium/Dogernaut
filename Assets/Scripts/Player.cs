@@ -33,6 +33,8 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+
         //Check if the condition of the collision is true.
         //If so, run the timer
         if (isCollided == true)
@@ -60,7 +62,7 @@ public class Player : MonoBehaviour
         }
         
         //If the player if out of range, reset the scene
-        if(currentPosition.y > 5 || currentPosition.y < -7)
+        if(currentPosition.y > 5.2 || currentPosition.y < -7)
         {
             //Debug.Log("Out of range");
             SceneManager.LoadScene("Main");
